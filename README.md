@@ -84,6 +84,8 @@ Student can ask questions which they felt are very difficult to answer
 # Admin Login
 <img src="admin login.PNG" width="708" height="378">
 
+# Database schema
+<img src="database.PNG" width="708" height="378">
 
 # Spring boot Learning notes
 ```

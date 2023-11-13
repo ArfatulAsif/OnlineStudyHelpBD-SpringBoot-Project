@@ -133,7 +133,7 @@ Remember that the structure can vary based on your specific requirements, and ad
 
 # Model-View-Controller (MVC) architectural pattern
 
-## 1. Controller:
+## 1. Controller classes:
    - **Purpose:** Controllers in Spring Boot handle incoming HTTP requests, process them, and return appropriate responses.API CAlls
    - **Location:** Controllers are often placed in a package like `com.example.controller`.
    - **Example:**
@@ -218,7 +218,7 @@ public class TaskController {
 
 
 
-## 3. Repository Interface:
+## 3. Repository Interfaces:
 
 In Spring Data JPA, a repository interface is an interface that extends one of the Spring Data repository interfaces. These interfaces provide a set of methods for performing common database operations without the need for boilerplate code. The repository interfaces are typically extended by your custom repository interfaces, and Spring Data JPA dynamically generates the implementation at runtime.
    
@@ -355,7 +355,7 @@ If your table name is `students` then use queryByStudents() like this
 
 
 
-4. **Service:**
+## 4. Service classes:
    - **Purpose:** Services contain the business logic of the application. They encapsulate the application's functionality and interact with repositories to perform data-related operations.
    - **Location:** Services are commonly placed in a package like `com.example.service`.
    - **Example:**
@@ -423,7 +423,7 @@ public class LoginUserService {
 }
 ```
 
-5. **Utility:**
+## 5. Utility classes:
    - **Purpose:** Utility classes contain reusable, often static, methods that provide common functionality across the application.
    - **Location:** Utilities can be placed in a package like `com.example.util`.
    - **Example:**

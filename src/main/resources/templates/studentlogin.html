@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <title>Online Study Help BD</title>
+        <link rel="stylesheet" href="css/login.css">
+        <!-- Tailwind CDN -->
+        <script src="https://cdn.tailwindcss.com"></script>
+        <!-- DaisyUI CDN -->
+        <link href="https://cdn.jsdelivr.net/npm/daisyui@3.7.3/dist/full.css" rel="stylesheet" type="text/css" />
+        <!-- Animate.css CDN -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+        <!-- AOS CDN -->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <!-- Font Awesome -->
+        <script src="https://kit.fontawesome.com/f13afb77f1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+        <!-- Start of Navbar -->
+        <div class="border-b-[1px] bg-amber-500">
+                <div class="my-container">
+                        <!-- For Large Device -->
+                        <div class="hidden lg:flex items-center justify-between">
+                                <!-- Logo -->
+                                <a href='index.html'>
+                                        <h1 class="font-extrabold text-5xl text-white">OnlineStudyHelpBD<span
+                                                        class="text-red-500">.</span></h1>
+                                </a>
+
+                                <!-- Nav links for medium and large devices -->
+                                <div class="flex flex-row items-center justify-between gap-3 md:gap-0">
+                                        <!-- active link style -->
+                                        <a href="studentlogin.html" class="text-black h-full py-5 px-6 border-b-amber-500 hover:border-b-white border-b-[3px]
+                    hover:text-white transition duration-500">StudentUser</a>
+                                        <a href="adminlogin.html" class="text-black h-full py-5 px-6 border-b-amber-500 hover:border-b-white border-b-[3px]
+                    hover:text-white transition duration-500">Adminstrative</a>
+                                </div>
+
+
+                        </div>
+
+                        <!-- For Medium and small devices -->
+                        <div class="navbar bg-base-100 lg:hidden bg-amber-500 min-h-[100px]">
+                                <div class="navbar-start">
+                                        <div class="dropdown">
+                                                <label tabindex="0" class="btn btn-ghost btn-circle">
+                                                        <i class="fa-solid fa-bars text-[40px]"></i>
+                                                </label>
+
+                                                <ul tabindex="0"
+                                                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-[400px] flex flex-col gap-5 p-5">
+
+                                                        <li><a href="studentlogin.html"
+                                                                        class="text-[40px] text-[#293341] block border-b-[1px] p-3 hover:text-[#F17829] transition duration-500">StudentLogin</a>
+                                                        </li>
+                                                        <li><a href="adminlogin.html"
+                                                                        class="text-[40px] text-[#293341] block border-b-[1px] p-3 hover:text-[#F17829] transition duration-500">UserLogin</a>
+                                                        </li>
+                                                </ul>
+                                        </div>
+                                </div>
+                                <div class="navbar-center">
+
+                                        <a href='index.html'>
+                                                <h1 class="font-extrabold text-[50px] text-white">OnlineStudyHelpBD<span
+                                                                class="text-red-500">.</span>
+                                                </h1>
+                                        </a>
+
+                                </div>
+
+                        </div>
+                </div>
+        </div>
+        <!-- End of Navbar -->
+
+
+
+
+
+
+        <!------FORM------>
+
+        <div class="form-container">
+                <div class="brand-logo"></div>
+                <div class="brand-title">Student Login Info</div>
+                <form class="inputs">
+                        <label class="S">Username:</label>
+                       
+                        <input type="text" id="Username" required />
+
+                        <label class="S">Password:</label>
+                       
+                        <input type="text" id="Password" required />
+                        
+                        <button type="submit" id="submit-btn" class="SUBMIT" >Submit</button>
+                </form>
+
+        </div>
+
+
+        <!---FORM END-->
+
+
+
+        <!---Footer-->
+
+        <footer class="new_footer_area bg_color">
+                <div class="new_footer_top">
+                        <div class="footer_bg">
+                                <div class="footer_bg_one"></div>
+                                <div class="footer_bg_two"></div>
+                        </div>
+                </div>
+                <div class="footer_bottom">
+                        <div class="container">
+                                <div class="row align-items-center">
+                                        <div class="col-lg-6 col-sm-7">
+                                                <p class="mb-0 f_400">©All rights reserved By Arfatul Islam Asif.</p>
+                                        </div>
+                                        <div class="col-lg-6 col-sm-5 text-right">
+                                                <p>Created by <i class="icon_heart"></i> Asif: <a
+                                                                href="https://bd.linkedin.com/in/arfatul-islam-asif-169116279"
+                                                                target="_blank">Linkedin</a></p>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        </footer>
+
+
+        <!--Footer End-->
+
+
+<!------Scripts ---->
+<script src="scripts/student.js"></script>
+
+
+
+
+</body>
+
+
+
+
+</html>

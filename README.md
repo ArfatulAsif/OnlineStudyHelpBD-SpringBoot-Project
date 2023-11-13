@@ -88,6 +88,83 @@ Student can ask questions which they felt are very difficult to answer
 ```
 **As it was mentioned earlier this was a spring boot learning project**
 ```
+## My Spring boot Project Structures
+
+
+
+```plaintext
+src
+|-- main
+|   |-- java
+|   |   `-- com
+|   |       `-- example
+|   |           `-- OnlineStudyHelp
+|   |               |-- controller
+|   |               |   |-- Controllers.java
+|   |               |-- model
+|   |               |   |-- Questions.java
+|   |               |   |-- Subjectadded.java
+|   |               |   |-- Loginadmin.java
+|   |               |   |-- LoginUser.java
+|   |               |-- repository
+|   |               |   |-- LoginadminRepository.java
+|   |               |   |-- LoginUserRepository.java
+|   |               |   |-- QuestionsRepository.java
+|   |               |   |-- SubjectaddedRepository.java
+|   |               |-- service
+|   |               |   |-- LoginadminService.java
+|   |               |   |-- LoginUserService.java
+|   |               |   |-- QuestionsService.java
+|   |               |   |-- SubjectaddedService.java
+|   |               |-- utility
+|   |               |   |-- Confirmation.java
+|   |               |   |-- Person.java
+|   |               |   |-- QuestionRequest.java
+|   |               |-- OnlineStudyApplication.java
+|   |
+|   |-- resources
+|   |   |-- application.properties (Contains database connections)
+|   |   |-- static
+|   |   |   |-- css
+|   |   |   |   `-- style.css
+|   |   |   |-- js
+|   |   |   |   `-- script.js
+|   |   |   `-- images
+|   |   |       `-- logo.png
+|   |   |
+|   |   |-- templates
+|   |   |   `-- index.html
+|   `-- webapp (optional)
+|       `-- WEB-INF
+|
+|-- test
+|   |-- java
+|   |   `-- com
+|   |       `-- example
+|   |           `-- myproject
+|   |               |-- controller
+|   |               |   `-- MyControllerTest.java
+|   |               |-- service
+|   |               |   `-- MyServiceTest.java
+|   |               `-- MyProjectApplicationTests.java
+|
+`-- target
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

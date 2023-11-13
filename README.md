@@ -55,10 +55,10 @@ My project relies on the following technologies, libraries, and tools:
 
 
 # Home Page
-<img src="Home Page-1.gif" width="500" height="267">                <img src="Home Page-2.gif" width="500" height="267">
+<img src="Home Page-2.gif" width="500" height="267"><img src="Home Page-1.gif" width="500" height="267">
 
 ```
-Home page before and after login
+Home page after and before login
 ```
 
 # All Questions Page 

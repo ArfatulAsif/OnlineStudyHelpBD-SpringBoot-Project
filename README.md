@@ -134,6 +134,7 @@ src
 |   |   |
 |   |   |-- templates
 |   |   |   `-- index.html
+|   |   |   `-- other html files
 |   `-- webapp (optional)
 |       `-- WEB-INF
 |

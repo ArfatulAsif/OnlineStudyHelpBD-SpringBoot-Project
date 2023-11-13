@@ -88,6 +88,50 @@ Student can ask questions which they felt are very difficult to answer
 ```
 **As it was mentioned earlier this was a spring boot learning project**
 ```
+
+
+## Spring boot Project Structures
+
+
+1. **src/main/java**: This directory contains your main Java source code.
+
+   - **com.example.demo**: This is often the package structure for your project. The package name is usually in reverse domain format. For example, if your domain is example.com, your package might be com.example.
+
+     - **Application.java**: This is the entry point of your Spring Boot application. It contains the `main` method and is annotated with `@SpringBootApplication`, which is a convenience annotation that adds various configuration classes.
+
+2. **src/main/resources**: This directory contains non-Java resources, such as application properties, XML configuration files, static content, templates, etc.
+
+   - **application.properties or application.yml**: Configuration files where you can set various properties for your application, like server port, database connection details, etc.
+
+   - **static/**: This directory is used for static resources such as CSS, JavaScript, images, etc.
+
+   - **templates/**: This directory is used for HTML templates if you are using a template engine like Thymeleaf.
+
+3. **src/test**: This directory contains your test code.
+
+   - **com.example.demo**: This mirrors the structure of the main source code, and you will find test classes here to test your application.
+
+4. **pom.xml (Maven)** or **build.gradle (Gradle)**: This is the project configuration file where you specify dependencies, plugins, and other build-related settings.
+
+5. **target (or build) directory**: This is the default output directory for compiled classes and generated JAR or WAR files.
+
+6. **mvnw and mvnw.cmd (or gradlew and gradlew.bat)**: These are wrapper scripts for Maven or Gradle, respectively. They allow you to run your project without having to install Maven or Gradle separately.
+
+7. **.gitignore**: This file specifies intentionally untracked files that Git should ignore.
+
+8. **README.md**: A markdown file providing information about the project, including instructions for building and running it.
+
+9. **.editorconfig**: A configuration file to define and maintain consistent coding styles between different editors and IDEs.
+
+10. **.git**: The directory that contains the configuration, objects, and refs for a Git repository.
+
+11. **.mvn**: Maven wrapper directory, contains wrapper files for Maven similar to the mvnw script.
+
+12. **.settings**: IDE-specific settings, e.g., for Eclipse.
+
+Remember that the structure can vary based on your specific requirements, and additional directories may be present based on the complexity and needs of your project. Also, the actual file names and contents may vary based on the tools and libraries you are using.
+
+
 ## My Spring boot Project Structures
 
 
